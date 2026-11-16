@@ -1,0 +1,7 @@
+{
+  "accelerator": "work-planning",
+  "name": "work-planning-buddy",
+  "scaffold": "web-workbench",
+  "style": "xbuddy",
+  "title": "工作计划 Buddy"
+}

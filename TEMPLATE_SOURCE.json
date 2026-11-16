@@ -1,0 +1,11 @@
+{
+  "archive": "ProjectBuddy_前端源码_Buddy应用开发_v1.1_副本.zip",
+  "sha256": "89c5b83b08a009a4058b65e1de0c3ba915ad012936916f7749cff5bd064a1b83",
+  "files": {
+    "app/frontend/src/styles/pc-tokens.css": "ea3c8fcd6052cc7d7e6f8c57b59b2eb5d8b906f27b4b5f46eaa0f5dbf731a574",
+    "app/frontend/src/product/buddy/buddy.css": "453d6a4a9a7c7f55c619449bf1bfb2cefdc1a08a06eca5dee64c0092c3753e2e",
+    "app/frontend/src/product/buddy/shared.tsx": "bcef8894a2238fbb3ad50a6339b9c9ac887cbe86a6bcdeddf45f95094d0b6baa",
+    "app/frontend/src/product/buddy/BuddyStudio.tsx": "c9f05eef6b06193dea7db2de3704a190f3ddca55086a8ae5861019f0cfcfeb92"
+  },
+  "reuse": "Full Buddy presentation stylesheet; adapted PageHead/Metric/Tag/Tabs/Bars, page composition, table and dialog patterns. Runtime/auth/X links and business data are excluded."
+}
