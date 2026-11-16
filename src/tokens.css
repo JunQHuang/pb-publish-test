@@ -1,0 +1,91 @@
+/* Visual values from the user-provided ProjectBuddy v1.1 archive. See README.md for source and hash. */
+:root {
+  --board-side: 230px;
+  --board-top: 52px;
+  --ui-font: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --ui-space-1: 4px;
+  --ui-space-2: 8px;
+  --ui-space-3: 12px;
+  --ui-space-4: 16px;
+  --ui-space-6: 24px;
+  --ui-space-8: 32px;
+  --ui-primary: #176ac8;
+  --ui-primary-hover: #125bad;
+  --ui-primary-active: #104f97;
+  --ui-selected: #dceaff;
+  --ui-selected-strong: #d5e6ff;
+  --ui-hover: #f4f5f8;
+  --ui-focus: #2877bd;
+  --ui-progress-fill: #1768ad;
+  --ui-on-primary: #ffffff;
+
+  --ui-background: #fff;
+  --ui-surface: #ffffff;
+  --ui-surface-subtle: #fafbfc;
+  --ui-surface-sunken: #e9ebf1;
+  --ui-ink: #30323c;
+  --ui-secondary: #535765;
+  --ui-muted: #616472;
+  --ui-line: #d7d9e1;
+  --ui-line-strong: #c4c8d2;
+
+  --ui-danger: #d83931;
+  --ui-danger-soft: #fdeceb;
+  --ui-warning: #b25f00;
+  --ui-warning-soft: #fff3e0;
+  --ui-success: #1f8a4c;
+  --ui-success-soft: #e6f6ec;
+  --ui-neutral: #646a73;
+  --ui-neutral-soft: #f0f1f3;
+  --ui-accent: #7b61ff;
+  --ui-accent-soft: #f1edff;
+  --ui-teal: #0e8a8a;
+  --ui-teal-soft: #e3f6f5;
+
+  --ui-sidebar: #f5f6fa;
+  --ui-sidebar-ink: #1f2329;
+  --ui-sidebar-nav: #353b49;
+  --ui-sidebar-muted: #8f959e;
+  --ui-sidebar-hover: #eff2f7;
+  --ui-sidebar-active: #d5e6ff;
+  --ui-sidebar-accent: #176ac8;
+  --ui-sidebar-focus: #82a7fc;
+  --ui-overlay: #1f232966;
+
+  --ui-text-small: 12px;
+  --ui-text-caption: 13px;
+  --ui-text-body: 14px;
+  --ui-text-section: 15px;
+  --ui-text-title: 16px;
+  --ui-text-page: 18px;
+  --ui-text-metric: 24px;
+
+  --ui-control-height: 32px;
+  --ui-control-height-compact: 28px;
+  --ui-field-height: 32px;
+  --ui-radius-control: 5px;
+  --ui-radius-panel: 7px;
+  --ui-page-gutter: 20px;
+  --ui-card-padding: 16px;
+  --ui-block-gap: 16px;
+  --ui-nav-width: 224px;
+
+  --ui-shadow-popup: 0 6px 20px #1f23291a, 0 1px 4px #1f23290a;
+  --ui-shadow-card: none;
+
+  --ui-chart-1: #3370ff;
+  --ui-chart-2: #14c0b4;
+  --ui-chart-3: #7b61ff;
+  --ui-chart-4: #ff9a2e;
+  --ui-chart-5: #8f959e;
+  --ui-quadrant-asset: #f5f8ff;
+  --ui-quadrant-attack: #f5f8ff;
+}
+@media (max-width: 600px) {
+  :root {
+    --ui-text-body: 15px;
+    --ui-page-gutter: 14px;
+    --ui-field-height: 40px;
+    --ui-control-height: 36px;
+  }
+}

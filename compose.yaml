@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    ports: ["127.0.0.1:8000:8000"]
+    environment:
+      BUDDY_ACCESS_TOKEN: ${BUDDY_ACCESS_TOKEN:?Set a random token of at least 32 characters}
+    volumes: ["buddy-data:/data"]
+    read_only: true
+    tmpfs: ["/tmp:size=64m,noexec,nosuid"]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    mem_limit: 512m
+    cpus: 1
+    pids_limit: 128
+    restart: unless-stopped
+volumes:
+  buddy-data:

@@ -1,0 +1,17 @@
+/* Only bridges existing business widgets into the RaccoonX shell. */
+:root {--ui-primary:var(--volt);--ui-selected:var(--volt-soft);--ui-line:var(--line);--ui-ink:var(--ink);--ui-secondary:var(--ink-2);--ui-muted:var(--ink-3);--ui-radius-panel:8px;--bd-primary:var(--volt);--bd-line:var(--line);--bd-bg:var(--bg);--bd-text:var(--ink);--bd-muted:var(--ink-3)}
+body {font-family:var(--font-sans);color:var(--ink);background:var(--bg);font-size:14px}
+.xbuddy-content {max-width:none;margin:0;padding:0}
+.xbuddy-content>.module-root {display:flex;flex-direction:column;gap:20px;padding:0 24px 24px}
+.xbuddy-content .module-root>header {margin:0 -24px 0}
+.xbuddy-content .bd-metrics {gap:16px;margin:0}
+.xbuddy-content .bd-metric {border-radius:8px;padding:16px 20px;box-shadow:none}
+.xbuddy-content .bd-metric>b {font-size:22px;line-height:28px;margin:8px 0}
+.xbuddy-content .ui-banner {margin:0;border-radius:8px;background:var(--volt-soft);border:1px solid var(--line);color:var(--ink-2)}
+.xbuddy-content .ui-banner>b {color:var(--ink)}
+.xbuddy-content .ui-overview-grid,.xbuddy-content .ui-overview-bottom {gap:20px;margin:0}
+.xbuddy-content .bd-btn {border-radius:6px;font-size:13px;min-height:32px;box-shadow:none}
+.xbuddy-content .bd-btn.primary {background:var(--volt)}
+.xbuddy-content .bd-toolbar {border-radius:8px}
+@media(max-width:639px){.xbuddy-content>.module-root{padding:0 16px 20px;gap:16px}.xbuddy-content .module-root>header{margin:0 -16px;padding:16px 24px}.xbuddy-content .module-root>header>div{flex-direction:column;align-items:stretch;gap:12px}.xbuddy-content .ui-banner{flex-wrap:wrap}.xbuddy-content .bd-metric{padding:14px}.xbuddy-content .ui-overview-grid,.xbuddy-content .ui-overview-bottom{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
