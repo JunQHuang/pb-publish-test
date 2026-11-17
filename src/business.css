@@ -1,0 +1,29 @@
+/* Business-only styles. Keep the pinned xBuddy shell and components intact. */
+.delivery-overdue-filter { white-space: nowrap; }
+.delivery-overdue-filter input {
+  appearance: none;
+  position: relative;
+  flex: 0 0 28px;
+  width: 28px;
+  height: 16px;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #e2e8f0;
+  cursor: pointer;
+}
+.delivery-overdue-filter input::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+}
+.delivery-overdue-filter input:checked { background: #2563eb; border-color: #2563eb; }
+.delivery-overdue-filter input:checked::before { transform: translateX(12px); }
+.delivery-overdue-filter input:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }

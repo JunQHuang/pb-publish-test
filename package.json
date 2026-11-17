@@ -1,0 +1,28 @@
+{
+  "name": "buddy-web-workbench",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "start": "python -m uvicorn backend.app:create_app --factory --host 127.0.0.1 --port 8000",
+    "test:backend": "python -m unittest backend.test_app -v"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "@base-ui/react": "1.7.0",
+    "@remixicon/react": "4.9.0",
+    "@fontsource-variable/geist": "5.3.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "tailwind-merge": "3.6.0",
+    "motion": "12.43.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "jsdom": "26.1.0",
+    "tailwindcss": "4.3.3",
+    "@tailwindcss/cli": "4.3.3"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "accelerator": "project-delivery",
+  "name": "delivery-buddy",
+  "scaffold": "web-workbench",
+  "style": "xbuddy",
+  "title": "客户交付 Buddy"
+}

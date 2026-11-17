@@ -1,0 +1,89 @@
+{
+  "id": "xbuddy-ui",
+  "name": "xBuddy UI · RaccoonX 中台",
+  "version": "1.0.0",
+  "source_repository": "SenseTime-FDE/RaccoonX",
+  "source_commit": "a16cd171e743bc6ed413bf0b985a246405d28cb1",
+  "scope": "presentation only; no platform API, auth, tenant data or service routes",
+  "files": {
+    "components/page-mark.tsx": {
+      "source": "frontend/src/components/page-mark.tsx",
+      "source_sha256": "eb34e770e53b522f983f820636874946e761e62ef79eaa51eddbda66ce0e9da5",
+      "sha256": "eb34e770e53b522f983f820636874946e761e62ef79eaa51eddbda66ce0e9da5"
+    },
+    "components/ui/primitives.tsx": {
+      "source": "frontend/src/components/ui/primitives.tsx",
+      "source_sha256": "81281bf424a5642ee4f42bd20eeec8d66193b1d8dbd91aed7e053d8763fb59bd",
+      "sha256": "221a0d15470e09ca90604fd53bf79a2a1f7ea56ef73a424cb73cdc27686e89a2"
+    },
+    "components/ui/button.tsx": {
+      "source": "frontend/src/components/ui/button.tsx",
+      "source_sha256": "ff78febded36d2daeafc183af1734dae34ab9f2c491335e259801526a6dadce6",
+      "sha256": "47ae45ddc3b7337c3edc180965b2a7b489fa28672bff93d6c23b305bb6ea2908"
+    },
+    "components/ui/dialog.tsx": {
+      "source": "frontend/src/components/ui/dialog.tsx",
+      "source_sha256": "cd41b6a9ae4f606c56ab0e5c499564e9aad98c023fe7a20431a60c7ccd486754",
+      "sha256": "509a38d415209bfb0a5269a7620c05118943bc789c27211302708a8f678a7882"
+    },
+    "components/ui/form.tsx": {
+      "source": "frontend/src/components/ui/form.tsx",
+      "source_sha256": "b2b111e4bc1aa4eaaff1c6c21cda4f11591e95ae7f894ccfa4b4d4c427719c8d",
+      "sha256": "5c46ee05ddc7e146f6b78374f9e1d9139fd4796c896caf6d3d079fba0e948fe4"
+    },
+    "lib/cn.ts": {
+      "source": "frontend/src/lib/cn.ts",
+      "source_sha256": "d4ef3f4e469835101c4eed0117e56d9e5cfc67bf7c8d808e651bfe1fb074484b",
+      "sha256": "d4ef3f4e469835101c4eed0117e56d9e5cfc67bf7c8d808e651bfe1fb074484b"
+    },
+    "lib/motion.ts": {
+      "source": "frontend/src/lib/motion.ts",
+      "source_sha256": "593b528e28ef7e9ee7d12dd72e1adecb331b73d42f0d816ac34953dcf582be9f",
+      "sha256": "593b528e28ef7e9ee7d12dd72e1adecb331b73d42f0d816ac34953dcf582be9f"
+    },
+    "styles/upstream.css": {
+      "source": "frontend/src/styles/index.css",
+      "source_sha256": "335c97ba353453754396267167a08d423ef2731ce07cd739a7f061bd7306a57a",
+      "sha256": "b169c9b548106e257a0288ef6a71bf092d39133a1aeb52b2486434ee5e075e1a"
+    },
+    "assets/horizontal-zh-navy.svg": {
+      "source": "frontend/public/brand-assets/horizontal-zh-navy.svg",
+      "source_sha256": "e9546157d3be9aee2d34dab112cfcffbbf82c65f5b190f2e7ccad281e4ba54ff",
+      "sha256": "e9546157d3be9aee2d34dab112cfcffbbf82c65f5b190f2e7ccad281e4ba54ff"
+    },
+    "assets/horizontal-zh-white.svg": {
+      "source": "frontend/public/brand-assets/horizontal-zh-white.svg",
+      "source_sha256": "68336dd330508f3832435c71073b1396c56bd57db8f211d0dc23503124d7af8f",
+      "sha256": "68336dd330508f3832435c71073b1396c56bd57db8f211d0dc23503124d7af8f"
+    },
+    "assets/raccoon-project.webp": {
+      "source": "frontend/public/raccoon-emoji-v1/035-project.webp",
+      "source_sha256": "abaa9dc688694617d406f6c9f0294a472b8d68176520467eaa7de4451dc6a778",
+      "sha256": "abaa9dc688694617d406f6c9f0294a472b8d68176520467eaa7de4451dc6a778"
+    },
+    "LICENSE-RaccoonX": {
+      "source": "frontend/LICENSE",
+      "source_sha256": "232cf91474932d5110ed304e53b6b742a58463857c571fae803fdf2ac36d7bb3",
+      "sha256": "232cf91474932d5110ed304e53b6b742a58463857c571fae803fdf2ac36d7bb3"
+    },
+    "components/console.tsx": {
+      "source": "frontend/src/components/console.tsx",
+      "source_sha256": "9048477c9e37ec595905808a49ad38c4e1541930bd63f91b23a08ab97fdae442",
+      "selection": "TabItem, Tabs, PageHeader, ConsolePage, Section",
+      "sha256": "cfa34854fc6945bd2cffff39c770ce45c0af133c6bfde1ba57cd656a09503de2"
+    }
+  },
+  "adaptations": {
+    "ui-kit/xbuddy/WorkspaceShell.tsx": {
+      "source": "frontend/src/components/shell.tsx",
+      "source_sha256": "56a3f96028136313ca840514ec3373073293f56d59033af3cbcec9e6b21c2fa6",
+      "changes": "Props-driven business navigation, saved-state/help actions and mascot footer; original TopBar/NavLink/Sidebar dimensions and classes preserved; platform sessions/admin removed."
+    },
+    "ui-kit/xbuddy/components.jsx": {
+      "changes": "Maps business pack widget API to the original RaccoonX console header, Section, Badge, Dialog and Progress."
+    },
+    "ui-kit/xbuddy/styles/integration.css": {
+      "changes": "Existing business widgets and responsive layout integrated into the unchanged template shell."
+    }
+  }
+}
